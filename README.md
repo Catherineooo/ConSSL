@@ -124,6 +124,6 @@ your/dataste/semi-inat-2021/l_train/u_train/xxxxx.jpg
 This code  is based on [FixMatchCCSSL](https://github.com/TencentYoutuResearch/Classification-SemiCLS).
 ## Reference
 [1] Kihyuk Sohn, David Berthelot, Nicholas Carlini, Zizhao Zhang, Han Zhang, Colin A Raf-fel, Ekin Dogus Cubuk, Alexey Kurakin, and Chun-Liang Li.  Fixmatch:  Simplifying semi-supervised learning with consistency and confidence.NeurIPS, 33, 2020.  
-[2] Li, Junnan, Caiming Xiong, and Steven CH Hoi. "Comatch: Semi-supervised learning with contrastive graph regularization." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021.  
-[3] Yang, Fan, et al. "Class-Aware Contrastive Semi-Supervised Learning." arXiv preprint arXiv:2203.02261 (2022).
+[2] Li, Junnan, Caiming Xiong, and Steven CH Hoi. "Comatch: Semi-supervised learning with contrastive graph regularization." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021. 
 
+[3] Yang, Fan, et al. "Class-Aware Contrastive Semi-Supervised Learning." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pages 14421–14430, 2020.
