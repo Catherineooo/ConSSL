@@ -111,7 +111,7 @@ your/dataste/semi-inat-2021/l_train/u_train/xxxxx.jpg
  python train_semi.py --cfg ./configs/fixmatch/fm_cifar10_wres_b1x64_l250.py --out your/output/path   --seed 5 --gpu-id 0
 
  # to train the model by 10000 labeled data of CIFAR-100 dataset by ConSSL:
- python train_semi.py --cfg ./configs/conssl/conssl_exp512_cifar100_wres_x8_b4x16_l10000.py --out your/output/path   --seed 5 --gpu-id 0
+ python train_semi.py --cfg ./configs/conssl/conssl_exp512_cifar100_wres_x8_b4x16_l10000.py --out out/Semi-iNat2021   --seed 5 --gpu-id 0
 
 ## Multi-GPU
 # to train the model by CIFAR100 dataset by FixMatch+CCSSL with 4GPUs:
@@ -120,8 +120,8 @@ your/dataste/semi-inat-2021/l_train/u_train/xxxxx.jpg
 # to train the model by Semi-iNat2021 dataset by ConSSL with 4GPUs:
  python -m torch.distributed.launch --nproc_per_node 4 train_semi.py --cfg ./configs/conssl/conssl_exp512_seminat_b4x16_soft06_push09_mu7_lc2.py --out /your/output/path --use_BN True  --seed 5
  ```
-
-
+## Acknowledgement
+This code  is based on [FixMatchCCSSL](https://github.com/TencentYoutuResearch/Classification-SemiCLS).
 ## Reference
 [1] Kihyuk Sohn, David Berthelot, Nicholas Carlini, Zizhao Zhang, Han Zhang, Colin A Raf-fel, Ekin Dogus Cubuk, Alexey Kurakin, and Chun-Liang Li.  Fixmatch:  Simplifying semi-supervised learning with consistency and confidence.NeurIPS, 33, 2020.  
 [2] Li, Junnan, Caiming Xiong, and Steven CH Hoi. "Comatch: Semi-supervised learning with contrastive graph regularization." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021.  

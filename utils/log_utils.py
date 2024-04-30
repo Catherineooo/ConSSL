@@ -38,7 +38,8 @@ def get_default_logger(
 
 def time_str(fmt=None):
     if fmt is None:
-        fmt = '%Y-%m-%d_%H:%M:%S'
+        fmt = '%Y-%m-%d_%H-%M-%S'
 
     #     time.strftime(format[, t])
     return datetime.today().strftime(fmt)
+
